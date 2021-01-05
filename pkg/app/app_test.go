@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lego/components/config"
+	"github.com/jeevi-cao/lego/components/config"
 )
 
 func TestApplication_GetConfig(t *testing.T) {

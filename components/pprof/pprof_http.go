@@ -3,7 +3,7 @@ package pprof
 import (
 	"github.com/DeanThompson/ginpprof"
 
-	"lego/components/httpserver"
+	"github.com/jeevi-cao/lego/components/httpserver"
 )
 
 func UseHttpPprof(server *httpserver.HttpServer) {

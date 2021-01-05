@@ -14,7 +14,7 @@ import (
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
 
-	"lego/util"
+	"github.com/jeevi-cao/lego/util"
 )
 
 //@see https://github.com/sirupsen/logrus
