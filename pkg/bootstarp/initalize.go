@@ -10,15 +10,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"lego/components/config"
-	"lego/components/crontab"
-	"lego/components/httpserver"
-	"lego/components/httpserver/middleware"
-	"lego/components/log"
-	"lego/components/mongo"
-	sig "lego/components/signal"
-	"lego/components/zookeeper"
-	"lego/pkg/app"
+	"github.com/jeevi-cao/lego/components/config"
+	"github.com/jeevi-cao/lego/components/crontab"
+	"github.com/jeevi-cao/lego/components/httpserver"
+	"github.com/jeevi-cao/lego/components/httpserver/middleware"
+	"github.com/jeevi-cao/lego/components/log"
+	"github.com/jeevi-cao/lego/components/mongo"
+	sig "github.com/jeevi-cao/lego/components/signal"
+	"github.com/jeevi-cao/lego/components/zookeeper"
+	"github.com/jeevi-cao/lego/pkg/app"
 )
 
 var initFunc = []func(){

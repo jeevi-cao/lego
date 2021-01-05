@@ -3,7 +3,7 @@ package bootstarp
 import (
 	"time"
 
-	"lego/pkg/app"
+	"github.com/jeevi-cao/lego/pkg/app"
 )
 
 var shutdownFunc = []func(){

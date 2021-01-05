@@ -1,6 +1,6 @@
 package bootstarp
 
-import "lego/pkg/app"
+import "github.com/jeevi-cao/lego/pkg/app"
 
 var StopChan = make(chan struct{})
 

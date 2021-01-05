@@ -8,12 +8,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"lego/components/config"
-	"lego/components/crontab"
-	"lego/components/httpserver"
-	"lego/components/log"
-	"lego/components/mongo"
-	"lego/components/zookeeper"
+	"github.com/jeevi-cao/lego/components/config"
+	"github.com/jeevi-cao/lego/components/crontab"
+	"github.com/jeevi-cao/lego/components/httpserver"
+	"github.com/jeevi-cao/lego/components/log"
+	"github.com/jeevi-cao/lego/components/mongo"
+	"github.com/jeevi-cao/lego/components/zookeeper"
 )
 
 const (
