@@ -12,7 +12,7 @@ import (
 // WatchSingal函数注册shutdown restart reconfig 三个函数即可
 
 var sig *Signal
-var once *sync.Once
+var once sync.Once
 
 func init() {
 	once.Do(func() {
