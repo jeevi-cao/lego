@@ -36,10 +36,10 @@ func TestNewLog_WithNoSetting(t *testing.T) {
 
 func TestLog_Debug(t *testing.T) {
 	logger := initLogger(t)
-	logger.Handler.Debug("debug")
+	logger.Logger.Debug("debug")
 }
 
 func TestLog_Info(t *testing.T) {
 	logger := initLogger(t)
-	logger.Handler.Info("info")
+	logger.Logger.Info("info")
 }
