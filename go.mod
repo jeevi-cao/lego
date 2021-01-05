@@ -1,4 +1,4 @@
-module lego
+module github.com/jeevi-cao/lego
 
 go 1.14
 
